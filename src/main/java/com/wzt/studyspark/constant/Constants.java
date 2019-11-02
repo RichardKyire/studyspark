@@ -9,6 +9,8 @@ public class Constants {
     public static final String PARAM_SEX = "sex";
     public static final String PARAM_KEYWORDS = "keyword";
     public static final String PARAM_CATEGORY_IDS = "categoryId";
+    public static final String FIELD_VISIT_LENGTH = "visitLength";
+    public static final String FIELD_STEP_LENGTH = "stepLength";
     public static String SPARK_LOCAL = "spark.local";
 
   public static String SPARK_APP_NAME_SESSION = "UserVisitSessionAnalyzeSpark";
