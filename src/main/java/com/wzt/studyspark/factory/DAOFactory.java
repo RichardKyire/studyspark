@@ -1,7 +1,9 @@
 package com.wzt.studyspark.factory;
 
 
+import com.wzt.studyspark.dao.ISessionAggrStatDAO;
 import com.wzt.studyspark.dao.ITaskDAO;
+import com.wzt.studyspark.dao.SessionAggrStatDAOImpl;
 import com.wzt.studyspark.dao.TaskDAOImpl;
 
 /**
@@ -18,5 +20,8 @@ public class DAOFactory {
 	public static ITaskDAO getTaskDAO() {
 		return new TaskDAOImpl();
 	}
-	
+
+	public static ISessionAggrStatDAO getSessionAggrStatDAO() {
+		return new SessionAggrStatDAOImpl();
+	}
 }
